@@ -1,9 +1,12 @@
-const name = require("./gestdb");
+const db = require("./gestdb");
 
-require("./gestdb");
+
+// console.log(chalk.green.bgCyan.bold("Hello")); 
 
 
 //console input
 
 console.log("App.js");
-console.log(name);
+console.log(db.name);
+db.add();
+db.view();
